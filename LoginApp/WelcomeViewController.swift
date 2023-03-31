@@ -7,13 +7,20 @@
 
 import UIKit
 
-class WelcomeViewController: UIViewController {
+final class WelcomeViewController: UIViewController {
 
+    @IBOutlet weak var wellcomeLabel: UILabel!
+    
+    var wellcomeUName: String!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        wellcomeLabel.text = wellcomeUName
     }
     
 
-
+    @IBAction func logOutButtonPappet(_ sender: UIButton) {
+        
+    }
+    
 }
