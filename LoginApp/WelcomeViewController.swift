@@ -16,11 +16,5 @@ final class WelcomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         wellcomeLabel.text = wellcomeUName
-    }
-    
-
-    @IBAction func logOutButtonPappet(_ sender: UIButton) {
-        
-    }
-    
+    }    
 }

@@ -119,7 +119,7 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="logOutButtonPappet:" destination="s8r-RF-4rc" eventType="touchUpInside" id="flZ-gi-GQv"/>
+                                    <segue destination="Nit-M2-QK6" kind="unwind" unwindAction="unwindFor:" id="WLr-Ft-b39"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -142,6 +142,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="orB-xX-bHT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="Nit-M2-QK6" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="829.60000000000002" y="-35.532233883058474"/>
         </scene>
